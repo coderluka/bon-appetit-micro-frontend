@@ -1,0 +1,51 @@
+<header>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  />
+  <script src="https://unpkg.com/vue/dist/vue.min.js"></script>
+</header>
+
+<nav
+  class="navbar navbar-light"
+  style="background-color: #e3f2fd; margin-bottom:20px"
+>
+  <h2>Products menu</h2>
+</nav>
+<div class="container-fluid">
+  <div class="row", id="search">
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Apple</h5>
+          <button class="btn btn-outline-primary" value="apple">
+            Add to filter
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Banana</h5>
+          <button class="btn btn-outline-primary" value="banana">
+            Add to filter
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Orange</h5>
+          <button class="btn btn-outline-primary" value="orange">
+            Add to filter
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="../EventBus/EventBus.js"></script>
+<script src="script.js"></script>
